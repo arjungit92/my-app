@@ -34,16 +34,12 @@
               </dependency>
 	</dependencies>
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexus</id>
-		    <url>http://172.31.42.149:8081/repository/maven-snapshots/</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexus</id>
-		    <url>http://172.31.42.149:8081/repository/maven-releases/</url>
-		</repository>
-  	</distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>6f53fa4e2f445d2-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 	
 <build>
  <pluginManagement>
